@@ -1,0 +1,134 @@
+h1, h2, h3 {
+	color: #343a40;
+}
+
+.dark {
+	background-color: rgba(52, 58, 64, .9);
+}
+
+nav a {
+  color: lightgray;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.collapse {
+  justify-content: flex-end;
+}
+
+.nav-item {
+	margin: 0 1rem;
+}
+
+.container {
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: #D8D9D7;
+}
+
+/*.jumbotron h1 {*/
+/*	color: #011126;*/
+/*}*/
+
+.row h3 {
+	padding: 20px;
+}
+
+.skills-img {
+	width: 40px;
+	height: auto;
+	margin: 20px;
+}
+
+#story {
+	padding-top: 20px;
+}
+
+.title {
+	margin-top: 3rem;
+}
+
+.col-sm-4 p {
+	line-height: 0.7rem;
+}
+
+.row h4 {
+	padding: 1rem;
+}
+
+.project {
+	background: #fff;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+	transition: box-shadow .25s ease-in;
+	text-align: left;
+}
+
+.project:hover {
+	box-shadow: 0 8px 12px 0 rgba(0,0,0, .3);
+}
+
+.project .image-container {
+	height: 13rem;
+	overflow: hidden;
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+}
+
+.project h5, .project p {
+	padding-left: 1rem;
+}
+
+.design {
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+	height: 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.logo-container {
+	width: 8rem;
+}
+
+div.logo-container img {
+	width: 70%;
+	transition: transform .6s ease-in-out;
+	}
+
+.logo-container img:hover {
+	transform: scale(1.5);
+}
+
+.contact-icon {
+	width: 3rem;
+	height: auto;
+	opacity: 0.7;
+}
+
+.contact-icon:hover {
+	opacity: 1;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer {
+	background-color: #d8d9d7;
+	height: 3.5rem;
+	text-align: center;
+	font-weight: bold;
+	color: #343a40;
+}
