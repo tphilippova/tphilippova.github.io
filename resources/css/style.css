@@ -85,8 +85,13 @@ nav a:hover {
 	height: auto;
 }
 
-.project h5, .project p {
+.project h5,
+.project p {
 	padding-left: 1rem;
+}
+
+.design-work {
+	padding-left: 2rem;
 }
 
 .design {
@@ -131,4 +136,9 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	color: #343a40;
+}
+
+footer p {
+	padding-bottom: 1rem;
+	margin-bottom: 0;
 }
